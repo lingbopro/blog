@@ -7,13 +7,6 @@
   },
   "author": "lingbopro",
   "license": "CC-BY-NC-4.0",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.21.0",
-      "onFail": "download"
-    }
-  },
   "devDependencies": {
     "vitepress": "2.0.0-alpha.19"
   }
