@@ -43,7 +43,18 @@ export default defineConfig({
             },
             {
               text: '分类',
-              items: [],
+              items: [
+                {
+                  text: 'Linux',
+                  collapsed: true,
+                  items: [
+                    {
+                      text: '如何在 KDE Plasma 上获得 GNOME 的应用样式',
+                      link: '/zh/articles/get-gnome-app-styles-on-kde/',
+                    },
+                  ],
+                },
+              ],
             },
           ],
           '/zh/about': [
@@ -66,6 +77,7 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    // @ts-ignore
     lastUpdated: true,
     editLink: {
       pattern: 'https://github.com/lingbopro/docs/edit/main/:path',
