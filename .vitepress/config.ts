@@ -79,6 +79,12 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://docs.lingbopro.qzz.io',
   },
+  markdown: {
+    theme: {
+      light: 'catppuccin-latte',
+      dark: 'catppuccin-mocha',
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {

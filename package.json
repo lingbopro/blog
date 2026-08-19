@@ -9,5 +9,8 @@
   "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "vitepress": "2.0.0-alpha.19"
+  },
+  "dependencies": {
+    "@catppuccin/vitepress": "^0.1.2"
   }
 }
