@@ -76,6 +76,9 @@ export default defineConfig({
       },
     },
   },
+  sitemap: {
+    hostname: 'https://docs.lingbopro.qzz.io',
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
